@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300&display=swap');
+/* для обычных текстов */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300&family=Roboto&display=swap');
+/* для кнопок */
+
+*{
+    font-family: Nunito Sans;
+}
+
+body {
+    background: #ebebeb;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: auto;
+}
+
+
+
+/* ################################################################ */
+
+
+
+
+#header{
+    margin-top: 100px;
+}
+
+
+/* ########################## */
+/* эта навигация будет норм выглядеть, если на этом ноуте делать расширение браузера 90% */
+/* .navbar{
+    background: #B0C4DE;
+    top: 0;
+   
+    left: 0;
+    right: 0;
+    z-index: 6;
+    margin-top: 20px;
+    margin-right: 30px;
+    margin-left: 30px;
+    border-radius: 10px;
+    position: fixed;
+}
+.navbar ul{
+    padding: 0;
+    justify-content: space-between;
+    list-style: none;
+}
+.navbar ul form{
+    display: flex;
+    float: left;
+    
+    
+}
+.navbar ul li{
+    margin-right: 25px;
+    padding: 10px;
+    
+    box-sizing: border-box;
+    border: 1px solid red;
+}
+.navbar input{
+    border: none;
+    
+    border-radius: 5px;
+    font-size: 15px;
+    margin-top: 5px;
+} */
+
+.logo img{
+    width: 150px; 
+    text-align: center;
+}
+select{
+    border: none;
+    border-radius: 5px;
+}
+select option{
+    background: #e4dddd;
+}
+
+/* ####################################3 */
+
+.card{
+    
+    border: none;
+    /* background: #fff; */
+    /*потом убрать и визуально разделять блоки через hr */
+    width: 800px;
+    margin: auto;
+}
+
+
+
+#about {
+    padding: 3px 10px;
+}
+#about h2{
+    font-size: 50px;
+    font-family: inherit;
+    text-align: left;
+    margin: 10px;
+}
+#about h3{
+    font-family: inherit;
+    font-style: italic;
+    color: rgb(85, 85, 85);
+    width: 550px;
+    padding-left: 10px;
+}
+
+
+
+
+
+.allnum{
+    margin: 0;
+}
+
+ .numeration{
+    margin: 0px;
+    padding: 0;
+    width: 100%;
+    
+}
+.numeration ul{
+    list-style: none;
+    border-radius: 10px;
+    color: #271e1e;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.numeration ul li{
+    border: none;
+    background: #fff;
+    border-radius: 5px;
+    width: 25%;
+    box-sizing: border-box;
+    display: inline-block;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.15);
+}
+
+
+.numeration li, p{
+    margin: 5px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*  ##################################*/
+
+
+
+img{
+    margin-left: -239px;
+}
+
+
+
+
+
+
+
+
+/* ######################## */
+.about{
+    padding: 3px 10px;
+}
+.about h1{
+    font-size: 30px;
+}
+.about p, .about ul li{
+    font-size: 20px;
+    text-align: justify;
+    color: rgb(85, 85, 85);
+    text-align: center;}
+
+/* ################################*/
+
+.bu{
+    padding-bottom: 20px;
+}
+
+
+button{
+    margin: 0 auto;
+    display: block;
+    padding: 5px 15px;
+    font-family: Roboto;
+}
+
+.but button{
+    border: none;
+    margin: auto;
+    font-family: inherit;
+    font-weight: 800;
+    font-size: 20px;
+    background: #afd9ee;
+    border-radius: 7px; 
+    transition: all .3s;
+    
+}
+
+.but button:hover{
+    font-size: 25px;
+    color: blueviolet;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+/* #######################################3 */
+
+.detale{
+    max-width: 100%;
+    background: #F0FFFF;
+}
+.textdet{
+    margin: auto;
+    padding: 15px;
+    width: 800px;
+
+}
+
+.prof ul{
+    list-style: none;
+    margin: 10px 20px;
+    
+}
+
+.prof ul li{
+    border: none;
+    background: #fff;
+    width: 150px; 
+    border-radius: 5px;
+    margin: 10px;
+    display: inline-block;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    
+}
+
+.blocks{
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+
+}
+
+.block{
+    margin: 10px;
+    padding: 10px;
+    width: 40%;
+    box-sizing: border-box;
+    
+}
+
+.block p{
+    padding: 0;
+    margin: 5px;
+    text-align: left;
+
+}
+.block h3{
+    margin: 0;
+}
+
+
+
+
+.achivements{
+    padding: 3px 10px;
+}
+
+.diploms{
+    display: inline-block;
+    border: 1px solid red;
+    width: 300px;
+}
+
+/* ############################## */
+
+
+
+.footer{
+    background: #eee;
+    color:#000;
+}
+.footer ul{
+    text-align: center;
+    list-style: none; 
+    background: #eee;
+}
+.footer ul li{
+    padding: 3px;
+}
+.mention{
+    margin: 10px;
+    padding: 0;
+}
+.footer a{
+    color: #000;
+    text-decoration: none;
+}
+.footer a:visited{
+    color: #271e1e;
+}

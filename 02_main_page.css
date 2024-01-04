@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300&family=Roboto&family=Rubik+Doodle+Shadow&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    background: #E4F9F5;
+    scroll-behavior: smooth;
+    
+}
+.header{
+    margin-top: 250px;
+    text-align: center;
+    /* шрифт*/
+    
+}
+.header h1, .header h2, .button{
+    padding: 10px;
+}
+.button button{
+    border-radius: 5px;
+    padding: 10px;
+    background:  #78DBE2;;
+    border: 2px solid rgb(115, 196, 223);
+}
+
+.scrolling h2{
+    font-family: Rubik Doodle Shadow;
+    color: rgb(43, 111, 111);
+    margin-left:54px;
+    font-size: 35px;
+    
+}
+.people{
+    display: flex;
+   
+}
+
+
+.scrolling,
+.scrolling h2,
+.people{
+    background: #b4e6e0;
+}
+
+
+
+
+.box{
+    border: 2px solid #e66a30;
+    border-radius: 10px;
+    margin: 30px;
+    justify-content: center;
+    
+}
+.box h3, p{
+    text-align: center;
+    padding: 5px;
+    border-radius: 10px;
+
+}
+.box img{
+    width: 300px;
+    padding: 5px 5px 0 5px;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+.olimp{
+    margin: 10px 20px;
+    /* border: 1px solid black; */
+    
+} 
+.olimp h2{
+    font-family: Rubik Doodle Shadow;
+    color: rgb(43, 111, 111);
+    margin-left:30px;
+    font-size: 35px;
+    
+}
+
+
+
+
+.blocks{
+    margin: 10px 20px;
+    display: flex;
+    flex-direction:row; 
+}
+.block{
+    margin: 10px 20px;
+    border: 3px solid purple;
+    border-radius: 10px;
+    width: 500px;
+    background: #b4e6e0;
+}
+
+.name{
+    border-radius: 10px;
+    background: #b4e6e0;
+    text-align: center;
+    border: 1px solid grey;
+}
+
+
+.subject {
+    padding: 5px;
+    background: #b4e6e0;
+    text-align: left;
+    border: 1px solid red;
+}
+.date{
+    padding: 5px;
+    text-align: right;
+    background: inherit;
+    border: 1px solid purple;
+}
+
+
+
+.block a{
+    background: #b4e6e0;    
+}
+
+
+.block p{
+    text-align: center;
+    background: #b4e6e0;
+    border: 1px solid green;
+    
+
+}
+
+
+
+button{
+    margin: 10px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+    background:  #78DBE2;;
+    border: 2px solid rgb(115, 196, 223);
+    transition: all .3s;
+}
+
+button:hover{
+    vertical-align: middle;
+    background:  #98cfd383;
+    font-size: 14px;
+}
+button:focus {
+    vertical-align: middle;
+    color: #01a715;
+}
+
+
+.uni{
+    margin: 10px 20px;
+    
+    /* border: 1px solid rebeccapurple; */
+   
+    display: flex;
+}
+.university{
+    margin: 10px 20px;
+    
+    border-radius: 10px;
+    width: 500px;
+    text-align: center;
+
+}
+
